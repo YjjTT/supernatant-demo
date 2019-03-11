@@ -1,6 +1,5 @@
 var show = false
-$(clickMe).on('click', function (e) {
-    console.log(show)
+$(clickMe).on('click', function () {
     if (show) {
         $(popover).hide()
         show = false
